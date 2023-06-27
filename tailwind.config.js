@@ -10,6 +10,7 @@ module.exports = {
         section: '400px',
         swiper: '450px',
         small_screen: '250px',
+        iframe: '350px',
       },
       width: {
         30: '30%',

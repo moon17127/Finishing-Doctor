@@ -52,19 +52,17 @@ const OurWorks = () => {
           clickable: true,
         }}
         modules={[Autoplay, Pagination]}
-        className=" mySwiper  h-small_screen  lg:h-alt_height my-20 swiper-container xl:container xl:mx-auto "
+        className=" mySwiper  h-section  lg:h-swiper my-20 swiper-container xl:container xl:mx-auto "
       >
         {images.map(image => {
           return (
-            <SwiperSlide key={image}>
-              <div
-                style={{
-                  backgroundImage: `url(${image})`,
-                  backgroundRepeat: 'no-repeat',
-                  backgroundSize: 'cover',
-                }}
-                className="md:w-3/5   mx-auto w-full h-full rounded"
-              ></div>
+            <SwiperSlide key={image} className=" px-2  sm:px-0  ">
+              <img
+                src={image}
+                className="w-full  sm:w-4/6 md:w-3/6 h-full mx-auto rounded"
+                alt={image + 1}
+              />
+              =
             </SwiperSlide>
           );
         })}

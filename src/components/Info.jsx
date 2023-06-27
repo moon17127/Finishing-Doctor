@@ -59,7 +59,7 @@ function Info() {
           className=" w-full h-height_bg  object-contain  "
         />
         <a href="https://wa.me/966580624763">
-          <div className=" fixed bottom-16 right-6 p-3  bg-green-500 rounded-full z-50">
+          <div className=" fixed bottom-10  right-2 sm:p-1  md:p-3 bg-green-500 rounded-full z-50">
             <BsWhatsapp className=" text-4xl text-white" />
           </div>
         </a>
